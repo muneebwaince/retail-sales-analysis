@@ -1,2 +1,22 @@
 # retail-sales-analysis
-
+Retail Sales Analysis
+A Beginner Data Analytics Portfolio Project using Python, Pandas, and Matplotlib.
+Project Overview
+This project analyzes a small retail sales dataset covering January to March 2026.
+The goal is to calculate key sales and profit metrics, compare performance across product categories and cities, examine monthly sales changes, and translate the findings into practical business recommendations.
+Dataset notice: This is a fictional practice dataset created for learning and portfolio demonstration. It does not represent the verified performance of a real business.Business Objectives
+Calculate total sales, cost, profit, and profit marginCompare sales and profitability across product categoriesIdentify the strongest month by total salesCompare city-level sales, profit, and marginsEvaluate product revenue and unit volumeCommunicate findings and limitations clearlyTools and Technologies
+Python — analysis workflow and calculationsPandas — data inspection, transformation, and aggregationMatplotlib — data visualizationJupyter Notebook / Google Colab — analysis environmentKey Performance IndicatorsMetricResultTotal SalesPKR 117,300Total CostPKR 92,870Calculated ProfitPKR 24,430Overall Profit Margin20.83%Orders18Units Sold73Average Order ValuePKR 6,516.67Key Findings
+1. Category Performance
+Furniture generated the highest total sales at PKR 71,600 and the highest total profit at PKR 13,300.Electronics had the highest category profit margin at 26.01%.Furniture's profit margin was 18.58%, lower than the other two categories in this sample.2. Monthly SalesMonthSalesJanuary 2026PKR 28,200February 2026PKR 45,650March 2026PKR 43,450February recorded the highest sales. Sales increased by approximately 61.9% from January to February, then decreased by approximately 4.8% in March.
+3. City Performance
+Lahore had the highest total sales at PKR 49,200 and the highest total profit at PKR 9,070.Faisalabad had the highest city-level profit margin at 24.88%.4. Product Performance
+Office Chair generated the highest product sales total at PKR 50,000.Office Chair also generated the highest product profit total at PKR 8,800.Notebook Pack had the highest unit volume, with 23 units sold.Methodology
+Load and inspect the CSV datasetReview data types, missing values, duplicates, dates, and numeric valuesCalculate sales, total cost, and profitAggregate metrics by category, month, city, and productCreate visualizations to compare performanceInterpret results and develop recommendationsKey Formulas:
+Sales = Quantity × Unit PriceTotal Cost = Quantity × Unit CostCalculated Profit = Sales − Total CostProfit Margin = Profit ÷ Sales × 100Average Order Value = Total Sales ÷ Number of Distinct OrdersBusiness Recommendations
+Review Furniture costs, discounts, and product mix because it contributes the most total profit but has the lowest category margin in the sample.Investigate Electronics' higher observed margin and check whether it remains consistent with additional data.Examine which products contribute to Lahore's sales and why its margin is lower than other cities.Collect additional monthly data before drawing conclusions about seasonality or forecasting demand.Add relevant information such as discounts, returns, shipping, and operating expenses if available.Limitations
+The dataset contains only 18 rows and covers January to March 2026.It is fictional practice data, not a real company's sales records.Calculated profit subtracts supplied product cost from sales; it is not net profit because operating expenses, taxes, shipping, and returns are not included.The findings are descriptive and do not establish causation.Three months of data are insufficient for reliable seasonal analysis or forecasting.Project Files
+data/retail_sales.csv — practice datasetnotebooks/retail_sales_analysis.ipynb — analysis notebookreports/retail_sales_analysis_report.pdf — project reportimages/ — exported charts used in the documentationHow to Run
+Download or clone this repository.Open notebooks/retail_sales_analysis.ipynb in Jupyter Notebook or Google Colab.Make sure the CSV file path in the notebook points to data/retail_sales.csv.Run the notebook cells in order.Review the calculations, charts, and findings.Conclusion
+This project demonstrates a foundational data-analysis workflow, from data inspection and metric calculation to aggregation, visualization, and business interpretation. It highlights the difference between total profit and profit margin and shows how city, category, monthly, and product-level analysis can support better questions and decisions.
+Project type: Educational portfolio projectStatus: Beginner-level analysisCurrency: Pakistani Rupees (PKR)
