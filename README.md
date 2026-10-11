@@ -67,12 +67,12 @@ The analysis creates additional columns for sales, total cost, and calculated pr
 | Month | Sales |
 |---|---:|
 | January 2026 | PKR 28,200 |
-| February 2026 | PKR 45,650 |
-| March 2026 | PKR 43,450 |
+| February 2026 | PKR 50,850 |
+| March 2026 | PKR 38,250 |
 
-- February recorded the highest monthly sales.
-- Sales increased by approximately 61.9% from January to February.
-- Sales decreased by approximately 4.8% from February to March.
+- **February recorded the highest monthly sales**, reaching PKR 50,850.
+- Sales increased by **80.32%** from January to February.
+- Sales decreased by **24.78%** from February to March.
 
 ### 3. City Performance
 
@@ -144,9 +144,9 @@ Open the notebook to view the charts and supporting calculations.
 
 ## How to Run the Project
 
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open `Retail Sales Analysis.ipynb` in Jupyter Notebook or Google Colab.
-3. Upload `retail_sales.csv` if using Colab, or place it in the notebook's working directory.
+3. If using Google Colab, upload `retail_sales.csv`. If using local Jupyter, place the CSV in the notebook's working directory.
 4. Make sure the CSV path in the code matches the file location.
 5. Run the notebook cells in order.
 
